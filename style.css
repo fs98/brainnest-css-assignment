@@ -1,3 +1,10 @@
+:root {
+  --ebony-clay: #1F2937;
+  --alabaster: #F9FAF8;
+  --mercury: #E5E7EB
+  --dodger-blue: #3882f6;
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("./fonts/Roboto-LightItalic.ttf") format("truetype");
