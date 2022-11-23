@@ -1,0 +1,43 @@
+:root {
+  --ebony-clay: #1F2937;
+  --alabaster: #F9FAF8;
+  --mercury: #E5E7EB
+  --dodger-blue: #3882f6;
+}
+
+/* Typography */
+
+/* Colors */
+
+.color-alabaster {
+  color: var(--alabaster);
+}
+
+.color-mercury {
+  color: var(--mercury);
+}
+
+.bg-ebony-clay {
+  background-color: var(--ebony-clay);
+}
+
+/* Position */
+
+.float-right {
+  float: right;
+}
+
+/* Spacing */
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
