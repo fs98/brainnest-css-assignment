@@ -112,13 +112,12 @@ header {
 }
 
 header a {
-  color: var(--alabaster);
   text-decoration: none;
-  font-size: 1.125rem;
 }
 
 header span a {
-  opacity: 70%;
+  font-size: 1.125rem;
+  color: var(--mercury);
 }
 
 header span a:hover {
@@ -130,6 +129,7 @@ header>nav>a {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+  color: var(--alabaster);
 }
 
 h1 {
