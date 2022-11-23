@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./classes.css">
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">Logo</a>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+  <body class="m-0 p-0">
+    <header class="bg-ebony-clay">
+      <nav class="container">
+        <a href="#">Header Logo</a>
+        <span class="float-right">
+          <a href="#" class="mr-20">home</a>
+          <a href="#" class="mr-20">blog</a>
+          <a href="#">contact</a>
+        </span>
       </nav>
     </header>
 
     <main>
-      <section>
-        <div>
+      <section class="row">
+        <div class="col-6">
           <h1>This website is awesome</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             Cum socis na.</p>
           <button type="button">Sign Up</button>
         </div>
-        <div>
-          <img src="https://via.placeholder.com/600x350" alt="placeholder image in header">
+        <div class="col-6">
+          <img src="https://via.placeholder.com/600x350" alt="placeholder image in header" class="img-responsive">
         </div>
       </section>
 
