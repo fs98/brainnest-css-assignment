@@ -1,13 +1,17 @@
 :root {
   --ebony-clay: #1F2937;
   --alabaster: #F9FAF8;
-  --mercury: #E5E7EB
+  --mercury: #E5E7EB;
   --dodger-blue: #3882f6;
 }
 
 /* Typography */
 
 /* Colors */
+
+.color-ebony-clay {
+  color: var(--ebony-clay);
+}
 
 .color-alabaster {
   color: var(--alabaster);
@@ -17,8 +21,28 @@
   color: var(--mercury);
 }
 
+.color-dodger-blue {
+  color: var(--dodger-blue);
+}
+
 .bg-ebony-clay {
   background-color: var(--ebony-clay);
+}
+
+.bg-alabaster {
+  background-color: var(--alabaster);
+}
+
+.bg-mercury {
+  background-color: var(--mercury);
+}
+
+.bg-dodger-blue {
+  background-color: var(--dodger-blue);
+}
+
+.opacity-70 {
+  opacity: 70%;
 }
 
 /* Position */
@@ -41,3 +65,15 @@
   margin-right: 20px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.btn {
+  border-radius: 5px;
+  box-shadow: none;
+  border: 0px;
+  padding: 8px 25px 8px 25px;
+  font-weight: bold;
+  font-size: 1rem;
+}
