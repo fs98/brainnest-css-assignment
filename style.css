@@ -96,11 +96,6 @@
   .col-12 {width: 100%;}
 }
 
-.img-responsive {
-  width: 100%;
-  height: auto;
-}
-
 /* Custom styles */
 
 html {
@@ -133,5 +128,14 @@ header>nav>a {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+figure img {
+  border-radius: 20px;
+  border: 5px solid var(--dodger-blue);
 }
