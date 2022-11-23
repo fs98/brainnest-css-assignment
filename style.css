@@ -1,7 +1,7 @@
 :root {
   --ebony-clay: #1F2937;
   --alabaster: #F9FAF8;
-  --mercury: #E5E7EB
+  --mercury: #E5E7EB;
   --dodger-blue: #3882f6;
 }
 
@@ -117,6 +117,10 @@ header a {
   font-size: 1.125rem;
 }
 
+header span a {
+  opacity: 70%;
+}
+
 header span a:hover {
   opacity: 50%;
   transition: 0.5s;
@@ -126,4 +130,8 @@ header>nav>a {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 48px;
 }
