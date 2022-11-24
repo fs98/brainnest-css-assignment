@@ -101,3 +101,41 @@
 html {
   font-family: "Roboto";
 }
+
+/* Header */
+
+header {
+  padding: 20px 0px 20px 0px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header span {
+  float: right;
+}
+
+header span a {
+  font-size: 1.125rem;
+  color: var(--mercury);
+}
+
+header span a:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+header>nav>a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: var(--alabaster);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
