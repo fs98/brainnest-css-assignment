@@ -1,0 +1,70 @@
+:root {
+  --ebony-clay: #1F2937;
+  --alabaster: #F9FAF8;
+  --mercury: #E5E7EB;
+  --dodger-blue: #3882f6;
+}
+
+/* Header */
+
+header {
+  padding: 20px 0px 20px 0px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header span a {
+  font-size: 1.125rem;
+  color: var(--mercury);
+}
+
+header span a:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+header>nav>a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: var(--alabaster);
+}
+
+/* Hero Section */
+
+.hero-section {
+  padding: 100px 0px 100px 0px;
+}
+
+.hero-section .row > div {  /* to select only direct descendant of .row */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-section .row > :first-child {
+  padding-right: 100px;
+  padding-left: 0px;
+}
+
+.hero-section .row > :nth-child(2) {
+  padding-right: 0px;
+}
+
+figure img {
+  border-radius: 20px;
+  border: 5px solid var(--dodger-blue);
+}
+
+/* Universal styles */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
