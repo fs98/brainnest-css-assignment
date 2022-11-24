@@ -72,6 +72,24 @@ header>nav>a {
   text-align-last: center;
 }
 
+/* Quote Section */
+
+.quote-section {
+  padding: 100px 0px 100px 0px;
+}
+
+.quote-section figure blockquote {
+  font-size: 2.25rem;
+  padding-left: 50px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.quote-section figure figcaption {
+  font-size: 1.5rem;
+  float: right;
+}
+
 /* Universal styles */
 
 h1 {
