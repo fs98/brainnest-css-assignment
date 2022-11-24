@@ -54,9 +54,22 @@ header>nav>a {
   padding-right: 0px;
 }
 
-figure img {
+/* Information Section */
+
+.information-section {
+  padding: 30px 0px 30px 0px;
+}
+
+.information-section figure img {
+  width: 200px;
+  height: auto;
   border-radius: 20px;
   border: 5px solid var(--dodger-blue);
+}
+
+.information-section figure figcaption {
+  text-align: justify;
+  text-align-last: center;
 }
 
 /* Universal styles */
