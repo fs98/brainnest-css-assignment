@@ -96,46 +96,8 @@
   .col-12 {width: 100%;}
 }
 
-/* Custom styles */
+/* Custom universal styles */
 
 html {
   font-family: "Roboto";
-}
-
-header {
-  padding: 20px 0px 20px 0px;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header span a {
-  font-size: 1.125rem;
-  color: var(--mercury);
-}
-
-header span a:hover {
-  opacity: 50%;
-  transition: 0.5s;
-}
-
-header>nav>a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  color: var(--alabaster);
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-}
-
-figure img {
-  border-radius: 20px;
-  border: 5px solid var(--dodger-blue);
 }
