@@ -5,33 +5,6 @@
   --dodger-blue: #3882f6;
 }
 
-/* Header */
-
-header {
-  padding: 20px 0px 20px 0px;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header span a {
-  font-size: 1.125rem;
-  color: var(--mercury);
-}
-
-header span a:hover {
-  opacity: 50%;
-  transition: 0.5s;
-}
-
-header>nav>a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  color: var(--alabaster);
-}
-
 /* Hero Section */
 
 .hero-section {
@@ -88,6 +61,36 @@ header>nav>a {
 .quote-section figure figcaption {
   font-size: 1.5rem;
   float: right;
+}
+
+/* Action Section */
+
+.action-section {
+  padding: 100px 0px 100px 0px;
+}
+
+.action-section > :first-child {
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px 30px 40px
+}
+
+.action-section h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.action-section p {
+  margin-top: 0px;
+}
+
+.action-section button {
+  background-color: transparent;
+  border: 2px solid var(--alabaster);
 }
 
 /* Universal styles */
