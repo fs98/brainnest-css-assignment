@@ -49,11 +49,24 @@
 /* Information Section */
 
 .information-section {
-  padding: 30px 0px 30px 0px;
+  padding: 0px;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .information-section {
+    padding: 40px 0px 130px 0px;;
+  }
+}
+
+.information-section figure {
+  width: min-content;
+  margin: auto;
 }
 
 .information-section figure img {
-  width: 200px;
+  width: 180px;
   height: auto;
   border-radius: 20px;
   border: 5px solid var(--dodger-blue);
@@ -62,6 +75,7 @@
 .information-section figure figcaption {
   text-align: justify;
   text-align-last: center;
+  padding-inline: 10px;
 }
 
 /* Quote Section */
