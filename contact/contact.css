@@ -1,0 +1,19 @@
+:root {
+  --ebony-clay: #1F2937;
+  --alabaster: #F9FAF8;
+  --mercury: #E5E7EB;
+  --dodger-blue: #3882f6;
+}
+
+.heading-section {
+  padding: 100px 0px 50px 0px;
+}
+
+.heading-section h1 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.heading-section p {
+  text-align: center;
+}
