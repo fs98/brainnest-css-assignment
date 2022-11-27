@@ -38,11 +38,11 @@
 .container {
   width: 100%;
   margin: auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 /* For desktop: */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 540px) {
   .container {
     width: 71%;
     margin: auto;
@@ -152,6 +152,30 @@ html {
   font-family: "Roboto";
 }
 
+@media only screen and (min-width: 	720px) {
+  /* For medium screens: */
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 	960px) {
+  /* For large screens: */
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
 /* Header */
 
 header {
@@ -163,13 +187,36 @@ header a {
 }
 
 header span {
-  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 	720px) {
+  /* For medium screens: */
+
+  header span {
+    float: right;
+    display: unset;
+    margin-top: 0;
+  }
 }
 
 header span a {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--mercury);
-  margin-left: 30px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 	720px) {
+  /* For medium screens: */
+
+  header span a {
+    font-size: 1.125rem;
+    color: var(--mercury);
+    margin-left: 30px;
+  }
 }
 
 header span a:hover {
