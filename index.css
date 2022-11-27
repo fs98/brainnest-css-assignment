@@ -140,22 +140,44 @@
 /* Action Section */
 
 .action-section {
-  padding: 100px 0px 100px 0px;
+  padding: 40px 0px 40px 0px;
+  margin: 0px 20px 0px 20px;
 }
 
-.action-section > :first-child {
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .action-section {
+    padding: 100px 0px 100px 0px;
+  }
+}
+
+.action-section .container {
   border-radius: 10px;
   box-shadow: none;
   border: none;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
   justify-content: space-between;
-  padding: 30px 40px 30px 40px
+  padding: 20px 30px 20px 30px;
+}
+
+@media only screen and (min-width: 	960px) {
+  /* For small screens: */
+
+  .action-section .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px 40px 40px;
+  }
 }
 
 .action-section h4 {
   font-size: 1.5rem;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 .action-section p {
