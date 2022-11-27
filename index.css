@@ -56,7 +56,7 @@
   /* For small screens: */
 
   .information-section {
-    padding: 40px 0px 130px 0px;;
+    padding: 40px 0px 130px 0px;
   }
 }
 
@@ -81,19 +81,60 @@
 /* Quote Section */
 
 .quote-section {
-  padding: 100px 0px 100px 0px;
+  padding: 40px 0px 40px 0px;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .quote-section {
+    padding: 100px 0px 100px 0px;
+  }
 }
 
 .quote-section figure blockquote {
-  font-size: 2.25rem;
-  padding-left: 50px;
+  font-size: 1.125rem;
+  padding-left: 0px;
   font-style: italic;
   text-align: justify;
+  margin: 0;
 }
 
 .quote-section figure figcaption {
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   float: right;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .quote-section figure blockquote {
+    font-size: 1.5rem;
+    /* padding-left: 50px; */
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .quote-section figure figcaption {
+    font-size: 1rem;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 	960px) {
+  /* For small screens: */
+
+  .quote-section figure blockquote {
+    font-size: 2.25rem;
+    padding-left: 50px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .quote-section figure figcaption {
+    font-size: 1.5rem;
+    float: right;
+  }
 }
 
 /* Action Section */
