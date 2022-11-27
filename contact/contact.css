@@ -17,3 +17,52 @@
 .heading-section p {
   text-align: center;
 }
+
+.form-section {
+  padding: 0;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .form-section {
+    padding: 100px 0px 100px 0px;
+  }
+}
+
+.form-section .row :first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-section input, textarea {
+  margin-bottom: 15px;
+  height: 40px;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0.5px solid var(--ebony-clay);
+  padding-left: 5px;
+}
+
+.form-section input:focus, textarea:focus {
+  outline-color: var(--dodger-blue);
+}
+
+.form-section textarea {
+  font-family: "Roboto";
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+}
+
+.form-section input::placeholder {
+  font-style: italic;
+}
+
+.form-section textarea::placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  padding-top: 5px;
+  font-weight: normal;
+}
