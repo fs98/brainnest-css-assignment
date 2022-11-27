@@ -18,6 +18,18 @@
   text-align: center;
 }
 
+.blogs-section {
+  padding: 0px;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .blogs-section {
+    padding: 40px 0px 130px 0px;
+  }
+}
+
 .blogs-section .container > :first-child {
   margin: 40px 0px;
 }
@@ -31,4 +43,15 @@
 
 .blogs-section .container > :first-child > :first-child {
   font-weight: bold;
+  color: var(--dodger-blue);
+}
+
+.blogs-section .card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.blogs-section .card button {
+  font-size: 1rem;
+  font-weight: normal;
 }
