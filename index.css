@@ -8,7 +8,15 @@
 /* Hero Section */
 
 .hero-section {
-  padding: 100px 0px 100px 0px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 	540px) {
+  /* For small screens: */
+
+  .hero-section {
+    padding: 100px 0px 100px 0px;
+  }
 }
 
 .hero-section .row > div {  /* to select only direct descendant of .row */
@@ -102,14 +110,4 @@
 .action-section button {
   background-color: transparent;
   border: 2px solid var(--alabaster);
-}
-
-/* Universal styles */
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.25rem;
 }
